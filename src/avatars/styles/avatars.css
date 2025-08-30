@@ -4,16 +4,12 @@ body {
   align-content: center;
 }
 .gallery {
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.gallery > div {
-  align-content: center;
-  justify-content: center;
-  width: fit-content;
-  margin: 0 auto;
+  width: 100%;
+  div {
+    width: fit-content;
+    height: 100%;
+    margin: 0 auto;
+  }
 }
 
 .gallery .actress figure:first-child {
@@ -33,11 +29,8 @@ body {
 }
 
 figure {
-  width: 64px;
-  margin: 20px;
   position: relative;
-  justify-content: center;
-  align-items: center;
+  margin: 20px;
   img {
     border-radius: 50%;
     width: 64px;
@@ -53,7 +46,6 @@ figure {
   height: 20px;
   background-color: #dbdbdb;
   border-radius: 50%;
-
   &.active {
     background-color: #4cfe88;
   }
