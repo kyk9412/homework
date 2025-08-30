@@ -16,19 +16,19 @@ body {
   margin: 0 auto;
 }
 
-.gallery .Actress figure:first-child {
+.gallery .actress figure:first-child {
   float: left;
 }
-.gallery .Actress figure:nth-of-type(2),
-.gallery .Actress figure:nth-of-type(3),
-.gallery .Actress figure:nth-of-type(4) {
+.gallery .actress figure:nth-of-type(2),
+.gallery .actress figure:nth-of-type(3),
+.gallery .actress figure:nth-of-type(4) {
   float: left;
 }
 
-.gallery .Actor figure:nth-of-type(1),
-.gallery .Actor figure:nth-of-type(2),
-.gallery .Actor figure:nth-of-type(3),
-.gallery .Actor figure:nth-of-type(4) {
+.gallery .actor figure:nth-of-type(1),
+.gallery .actor figure:nth-of-type(2),
+.gallery .actor figure:nth-of-type(3),
+.gallery .actor figure:nth-of-type(4) {
   float: left;
 }
 
